@@ -1,0 +1,24 @@
+a {
+  color: mediumturquoise;
+}
+
+.wrap {
+  padding: 1em;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.wrap .box {
+  margin: 0 auto;
+  width: 600px;
+  height: 120px;
+  background-color: #eee;
+  line-height: 120px;
+  text-align: center;
+  color: #999;
+}
+
+.wrap .banner {
+  padding: 2em;
+  text-align: center;
+  color: #999;
+}
