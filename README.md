@@ -113,9 +113,6 @@ $ fbi init -a  # or `--all`
 ## License
 [MIT](https://opensource.org/licenses/MIT)
 
-## Changelog
-
-- **v1.0.0**  (2018.06.12)
-  - initialization
+## [Changelog](./CHANGELOG.md)
 
 
