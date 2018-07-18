@@ -6,11 +6,7 @@
     "node": ">= 7.6.0",
     "npm": ">= 3.10.0"
   },
-  "scripts": {
-    "release-patch": "npm version patch && git push && git push --tags",
-    "release-minor": "npm version minor && git push && git push --tags",
-    "release-major": "npm version major && git push && git push --tags"
-  },
+  "scripts": {},
   "author": "neikvon",
   "license": "MIT",
   "devDependencies": {
