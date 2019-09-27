@@ -1,20 +1,18 @@
-import {
-  name
-} from '../package.json'
+import { name } from '../package.json'
 
 console.log(`${name} says hello`)
 
 class Animal {
-  constructor() {
+  constructor () {
     this.type = 'animal'
   }
-  says(say) {
+  says (say) {
     console.log(this.type + ' says ' + say)
   }
 }
 
 class Cat extends Animal {
-  constructor() {
+  constructor () {
     super()
     this.type = 'cat'
   }
@@ -22,8 +20,8 @@ class Cat extends Animal {
 
 document.addEventListener('DOMContentLoaded', () => {
   const animal = new Animal()
-  animal.says('hello') //animal says hello
+  animal.says('hello') // animal says hello
 
   const cat = new Cat()
-  cat.says('hello') //cat says hello
+  cat.says('hello') // cat says hello
 })

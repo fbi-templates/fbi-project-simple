@@ -1,6 +1,4 @@
-import {
-  app
-} from 'hyperapp'
+import { app } from 'hyperapp'
 import view from './App'
 
 const state = {

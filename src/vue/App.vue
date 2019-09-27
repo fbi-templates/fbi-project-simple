@@ -1,23 +1,23 @@
-<template lang="html">
+<template>
   <div id="app">
-    <h1>Hello Parcel 📦 🚀</h1>
+    <h1>Hello Parcel from vue 📦 🚀</h1>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'app'
-}
+  export default {
+    name: 'app'
+  }
 </script>
 
-<style lang="css">
+<style>
   html,
   body {
     height: 100%;
   }
   body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
-    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif,
+      'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   }
   #app {
     display: flex;

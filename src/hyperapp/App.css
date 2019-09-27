@@ -50,6 +50,6 @@ button:focus {
   border: 1px solid #00caff;
 }
 
-button+button {
+button + button {
   margin-left: 3px;
 }

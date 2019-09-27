@@ -1,6 +1,5 @@
-async function serve() {
+async function serve () {
   process.env.NODE_ENV = 'development'
-  const path = require('path')
   const Bundler = require('parcel-bundler')
   const app = require('express')()
   const configDefault = require('./config/config.default')

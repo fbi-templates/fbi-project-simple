@@ -15,7 +15,6 @@ Simple web application.
 - no framework
 - vue
 - react
-- preact
 - hyperapp
 
 
@@ -45,22 +44,16 @@ $ fbi <task> [params]
 **Run a example**
 
 1. Initialize the options file: `$ fbi init -o`
-1. Cases:
+2. Cases:
     1. **no framework**
-        1. Change options.js=>parcel.entry -> [path.join(process.cwd(), 'src/index.html')] 
-    1. **vue**
-        1. `$ npm i vue vue-hot-reload-api`
-        1. Change options.js=>parcel.entry -> [path.join(process.cwd(), 'src/**vue**/index.html')] 
-    1. **react**
-        1. `$ npm i react react-dom`
-        1. Change options.js=>parcel.entry -> [path.join(process.cwd(), 'src/**react**/index.html')] 
-    1. **preact**
-        1. `$ npm i preact preact-compat`
-        1. Change options.js=>parcel.entry -> [path.join(process.cwd(), 'src/**preact**/index.html')] 
-    1. **hyperapp**
-        1. `$ npm i hyperapp`
-        1. Change options.js=>parcel.entry -> [path.join(process.cwd(), 'src/**hyperapp**/index.html')] 
-1. Start development server: `$ fbi s`
+        1. Change options.js=>parcel.entry -> [path.join(process.cwd(), 'src/index.html')]
+    2. **vue**
+        1. Change options.js=>parcel.entry -> [path.join(process.cwd(), 'src/**vue**/index.html')]
+    3. **react**
+        1. Change options.js=>parcel.entry -> [path.join(process.cwd(), 'src/**react**/index.html')]
+    4. **hyperapp**
+        1. Change options.js=>parcel.entry -> [path.join(process.cwd(), 'src/**hyperapp**/index.html')]
+3. Start development server: `$ fbi s`
 
 
 ## Tasks
@@ -81,15 +74,15 @@ $ fbi <task> [params]
 
 ## Advanced
 **How to change the build configuration?**
-1. Initialize the options file to the project directory. 
+1. Initialize the options file to the project directory.
 ```bash
 $ cd path/to/my-simple-project
 $ fbi init -o # or `--options`
 ```
-2. The options file will be located at `fbi/options.js`, includes instructions. 
+2. The options file will be located at `fbi/options.js`, includes instructions.
 
 **How to change the build logic?**
-1. Initialize options file and tasks to the project directory. 
+1. Initialize options file and tasks to the project directory.
 ```bash
 $ cd path/to/my-simple-project
 $ fbi init -t # or `--tasks`
